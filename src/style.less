@@ -1,0 +1,43 @@
+/** 全局样式 */
+// @size: 50px;
+@theme1: #bcf1f3;
+@theme2: #95e0f3;
+@theme3: #68baf5;
+@purple1: #8a8ef8;
+@purple2: #7665f5;
+@red: #f74764;
+@black: #09161b;
+@yellow: #b0b962;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  cursor: pointer;
+  display: block;
+}
+// 禁止浏览器下拉刷新
+body {
+  overscroll-behavior-y: contain;
+}
+
+/* 大于等于950px */
+@media screen and (min-width: 950px) {
+  html {
+    font-size: 14px;
+  }
+}
+/* 大于等于1600px */
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 16px;
+  }
+}
+/* 小于950px */
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 13px;
+  }
+}
