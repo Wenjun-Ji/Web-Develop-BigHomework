@@ -10,11 +10,6 @@ const pageStartRoutes = [
     path: '/mode1',
     name: 'Mode1',
     component: () => import('../views/index.vue')
-  },
-  {
-    path: '/set',
-    name: 'Set',
-    component: () => import('@/views/set.vue')
   }
 ]
 
