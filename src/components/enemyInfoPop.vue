@@ -100,7 +100,7 @@ const onClose = () => {
 .enemyInfoPop {
   .el-drawer__body {
     padding: 0;
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(103.3deg, rgb(252, 225, 208) 30%, rgb(255, 173, 214) 55.7%, rgb(162, 186, 245) 81.8%);
   }
   .enemyInfo {
     @gridSize: var(--cardGridSize);
