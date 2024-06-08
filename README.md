@@ -1,12 +1,6 @@
-## LegendTD
+## 保卫萝卜重制版
 
-**项目地址：** http://game.codeape.site
-
-**github：** https://github.com/ApeWhoLovesCode/LegendTD
-
-**gitee：** https://gitee.com/wooden-joint/LegendTD
-
-**文档：** https://juejin.cn/post/7214517573584601144
+**github：** https://github.com/Wenjun-Ji/Web-Develop-BigHomework
 
 ## 基本介绍
 
