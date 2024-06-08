@@ -18,7 +18,7 @@ const gameTitle = computed(() => {
   let tips = ''
   switch(levelData[source.mapLevel].type) {
     case LevelDataItemEnum.Endless: {
-      tips = '卍'; break;
+      tips = '最终关'; break;
     }
     default: {
       tips = `第${source.mapLevel}关`
@@ -85,8 +85,6 @@ onMounted(() => {
       v-if="state.isProtectTheHorse" 
       @re-start="reStart"
     />
-    <UserBall :itemsNum="4" @switchMapLevel="switchMapLevel" @re-start="reStart" />
-    <!-- <GitHubBall /> -->
   </div>
 </template>
 
