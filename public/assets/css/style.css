@@ -35,7 +35,7 @@ body {
   line-height: 34px;
 }
 body {
-  zoom: 0.9; /* 根据需要调整缩放比例 */
+  zoom: 1.0; /* 根据需要调整缩放比例 */
 }
 a:active,
 a:hover,

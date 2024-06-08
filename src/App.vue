@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="vue-container">
     <router-view></router-view>
   </div>
 </template>
@@ -27,7 +27,7 @@ onBeforeMount(() => {
 
 <style>
 /* 全局样式 */
-#app {
+.vue-container #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
