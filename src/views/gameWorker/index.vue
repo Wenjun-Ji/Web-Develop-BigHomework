@@ -78,7 +78,7 @@ onMounted(() => {
     <ElPopconfirm title="您确定要回到首页吗，当前页面游戏数据将清除" @confirm="$router.push('/')">
       <template #reference>
         <div class="title">
-          <img :src="requireCDN('LTD.png')" alt="" class="title-icon">
+          
           <br v-if="source.isMobile" />
           <span>{{ gameTitle }}</span>
         </div>
