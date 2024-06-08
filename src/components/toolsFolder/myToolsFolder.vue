@@ -15,6 +15,8 @@ import JuejinIcon from '@/assets/img/juejin.svg';
 import LTDIcon from '@/assets/img/LTDIcon.png';
 import otherImgData from '@/dataSource/otherImgData';
 import { requireCDN } from '@/utils/handleImg';
+const  _requireCDN = (url: string) => requireCDN(url, 'zombies')
+const  _requireCDN1 = (url: string) => requireCDN(url, 'tower')
 
 const rankListVisible = ref(false)
 const selectTowerVisible = ref(false)
@@ -36,8 +38,8 @@ const onClickItem = (item: ToolsFolderItem) => {
   <ToolsFolder
     :list="[
       {icon: GithubIcon, title: 'GitHub', url: 'https://github.com/Wenjun-Ji/Web-Develop-BigHomework'},
-      {icon: requireCDN('zombies-cover.png'), title: '敌人信息'},
-      {icon: requireCDN('pea-cover.png'), title: '塔防选择'},
+      {icon: _requireCDN('godzilla.png'), title: '敌人信息'},
+      {icon: _requireCDN1('tower_slow.png'), title: '塔防选择'},
       // {icon: RankListIcon, title: '排行榜'},
       // {icon: BlogIcon, title: '我的博客', url: 'https://codeape.site/'},
       // {icon: JuejinIcon, title: '掘金文档', url: 'https://juejin.cn/post/7214517573584601144'},
