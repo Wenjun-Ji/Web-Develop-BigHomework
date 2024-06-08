@@ -157,7 +157,7 @@ onMounted(() => {
 <style lang='less'>
 @import '@/style.less'; 
 .selectTowerPop {
-  background-image: radial-gradient(circle 350px at center, #bcf1f3 0%, #95e0f3 47%, #68baf5 100%);
+  background-image: linear-gradient(103.3deg, rgb(252, 225, 208) 30%, rgb(255, 173, 214) 55.7%, rgb(162, 186, 245) 81.8%);
   .el-drawer__body {
     padding: 0;
     display: flex;

@@ -8,8 +8,6 @@ const  _requireCDN = (url: string) => requireCDN(url, 'tower')
  * 塔防数据
  */
 const towerObj: TowerDataObj = {
-  'icestar': { name: 'icestar',  money: 200, saleMoney: 100, r: 3, damage: 1, hp: {cur: 10, sum: 10}, targetNum: 1, rate: 900, speed: 0.12, slow: {num: 2, time: 5000, type: 'slow'}, bSize: {w:0.6,h:0.6},   audioKey: 'slow-star', img: _requireCDN('tower_slow.png'), bulletImg: _requireCDN('bullet-star.png')},
-  'fengche': { name: 'fengche',  money: 500, saleMoney: 250, r: 3.6, damage: 2, hp: {cur: 10, sum: 10}, targetNum: 1, rate: 1000, speed: 0.14, bSize: {w:1,h:1}, isThrough: true, audioKey: 'fengche', img: _requireCDN('fengche.png'), bulletImg: _requireCDN('bullet-fengche.png')},
   'nanqiang': { name: 'nanqiang', money: 400, saleMoney: 200, r: 4, damage: 3, hp: {cur: 10, sum: 10}, targetNum: 3, rate: 1000, speed: 0.14, bSize: {w:0.4,h:0.4},   audioKey: 'nanqiang', img: _requireCDN('nanqiang.png'), bulletImg: _requireCDN('bullet1.png'), cover: _requireCDN('nanqiang-cover.png')},
   'ejiate': { name: 'ejiate',   money: 450, saleMoney: 225, r: 5, damage: 1, hp: {cur: 10, sum: 10}, targetNum: 1, rate: 200, speed: 0.16, bSize: {w:0.4,h:0.4},   audioKey: 'ejiate',  img: _requireCDN('ejiate.png'), bulletImg: _requireCDN('bullet1.png'), cover: _requireCDN('ejiate-cover.png')},
   'jin': { name: 'jin',      money: 800, saleMoney: 400, r: 6, damage: 7, hp: {cur: 10, sum: 10}, targetNum: 1, rate: 1200, speed: 0.2, bSize: {w:0.4,h:0.4}, audioKey: 'jin', img: _requireCDN('jin.png'), bulletImg: _requireCDN('bullet3.png'), cover: _requireCDN('jin-cover.png')},
@@ -24,11 +22,9 @@ const towerObj: TowerDataObj = {
 export default towerObj
 
 export const towerStaticData: {[key in TowerName]: TowerStaticItem} = {
-  'icestar': { name: '冰星', explain: '向最前方的一个敌人发射一颗会使敌人减速的冰星。' },
   'nanqiang': { name: '男枪', explain: '往三个敌人发射子弹。', enemyList: [{enemyName:'zombie-1'},{enemyName:'zombie-2'},{enemyName:'zombie-3'}] },
   'ejiate': { name: '厄加特', explain: '向一个敌人发射一连串的子弹。' },
   'jin': { name: '烬', explain: '攻击范围更大，子弹伤害更高。' },
-  'fengche': { name: '风车', explain: '发射一个旋转风车，风车可穿透敌人并造成伤害。', enemyList: [{enemyName:'zombie-1'},{enemyName:'zombie-2'}] },
   'ez': { name: '伊泽瑞尔', explain: '发射一个大范围的精准弹幕，可以穿透所有敌人并造成伤害.', enemyList: [{enemyName:'zombie-1'},{enemyName:'zombie-2'},{enemyName:'zombie-3'}] },
   'lanbo': { name: '兰博', explain: '向附近区域发射火焰，对命中的所有敌人造成伤害。', enemyList: [{enemyName:'zombie-1', level: 1},{enemyName:'zombie-1', level: 2},{enemyName:'zombie-1', level: 3},{enemyName:'zombie-1', level: 4},{enemyName:'zombie-1', level: 5},{enemyName:'zombie-1', level: 6},{enemyName:'zombie-1', level: 7},{enemyName:'zombie-1', level: 8},{enemyName:'zombie-1', level: 9},{enemyName:'zombie-1', level: 10}] },
   'aixi': { name: '艾希', explain: '最多往九个敌人发射冰箭，并使敌人减速。', enemyList: [{enemyName:'zombie-1'},{enemyName:'zombie-2'},{enemyName:'zombie-3'}] },

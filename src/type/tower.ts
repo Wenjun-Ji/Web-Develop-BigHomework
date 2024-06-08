@@ -1,7 +1,7 @@
 import { DebouncedFunc } from "lodash"
 import { EnemyName } from "./enemy"
 
-export type TowerName = 'icestar' | 'fengche' | 'nanqiang' | 'ejiate' | 'jin'| 'ez' | 'lanbo'| 'aixi' | 'delaiwen' | 'huonan' | 'twitch'
+export type TowerName =  'nanqiang' | 'ejiate' | 'jin'| 'ez' | 'lanbo'| 'aixi' | 'delaiwen' | 'huonan' | 'twitch'
 
 export type TowerDataObj = {[key in TowerName]: TowerType}
 

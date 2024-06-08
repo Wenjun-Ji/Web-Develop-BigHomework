@@ -2,10 +2,7 @@ import { GridInfo } from "@/dataSource/mapData"
 import { DebouncedFunc } from "lodash"
 import { TowerCanvasTower, TowerSlowType, TowerType } from "./tower"
 
-export type EnemyName = 'zombie-flag' | 'zombie-1' | 'zombie-2' | 'zombie-3' | 'iron-gate'
-| 'rugby' | 'newspaper' | 'zombie-dance' | 'pole-vault' | 'ice-car'
-| 'afu' | 'fulisha' | 'dance-little' | 'zombie-little' | 'kunkun'
-| 'rabbish' | 'rabbish-2' | 'godzilla' | 'zombie-boom'
+export type EnemyName = 'zombie-flag' | 'zombie-1' | 'zombie-2' | 'zombie-3' | 'iron-gate' | 'rugby' | 'newspaper' | 'zombie-dance' | 'pole-vault'
 
 export type EnemyDataObj = {[key in EnemyName]: EnemyType}
 
