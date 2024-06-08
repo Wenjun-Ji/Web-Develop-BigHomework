@@ -17,9 +17,6 @@ const router = useRouter()
 const gameTitle = computed(() => {
   let tips = ''
   switch(levelData[source.mapLevel].type) {
-    case LevelDataItemEnum.Experience: {
-      tips = '试玩'; break;
-    }
     case LevelDataItemEnum.Endless: {
       tips = '卍'; break;
     }
