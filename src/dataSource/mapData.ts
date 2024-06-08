@@ -15,7 +15,7 @@ const mapData: MapDataItem[] = [
     //   {tname: 'huonan', x: 5, y: 4},
     // ]
     enemyArr: [
-      ['ice-car']
+      ['zombie-1','zombie-2','zombie-3','iron-gate','rugby','newspaper','zombie-dance' ,'pole-vault']
     ]
   },
   // X形
