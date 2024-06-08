@@ -404,7 +404,8 @@ function onWorkerPostFn(fnName: WorkerFnName, event?: any) {
     .canvas-wrap {
       position: relative;
       padding: @size;
-      background-image: radial-gradient(circle calc(@size * 10) at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+      //background-image: radial-gradient(circle calc(@size * 10) at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+      background-image: linear-gradient(103.3deg, rgb(252, 225, 208) 30%, rgb(255, 173, 214) 55.7%, rgb(162, 186, 245) 81.8%);
       border-radius: 4px;
       overflow: hidden;
     }
