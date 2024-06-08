@@ -49,40 +49,6 @@ export default mapData
 
 /** 其他的地图数据 */
 export const othMapData = {
-  /** 体验关卡地图 */
-  experience: [
-    {
-      start: [
-        {x: 1, y: 1, x_y: 4, num: 39},
-        {x: 18, y: 1, x_y: 1, num: 32},
-        {x: 18, y: 9, x_y: 4, num: 28},
-        {x: 2, y: 9, x_y: 2, num: 30},
-      ],
-      map: [
-        {3: 3, 5: 2, 9: 3, 11: 4, 15: 3, 17: 2, 21: 3, 23: 4, 31: 3, 33: 2},
-        {4: 4, 6: 3, 11: 4, 12: 1, 15: 4, 17: 3, 20: 4, 21: 1, 28: 2},
-        {1: 1, 3: 2, 5: 1, 7: 4, 9: 1, 16: 2, 17: 3, 19: 2, 20: 3, 22: 2},
-        {1: 1, 3: 4, 7: 3, 11: 2, 15: 3, 20: 4, 22: 3, 24: 2},
-      ],
-      end: {x: 11, y: 2},
-      towerArr: [
-        {tname: 'aixi', x: 4, y: 6},{tname: 'aixi', x: 13, y: 5},{tname: 'aixi', x: 13, y: 9},{tname: 'lanbo', x: 3, y: 8},{tname: 'lanbo', x: 3, y: 9},{tname: 'lanbo', x: 4, y: 3},{tname: 'lanbo', x: 4, y: 4},
-        {tname: 'lanbo', x: 14, y: 4},{tname: 'lanbo', x: 14, y: 5},{tname: 'lanbo', x: 14, y: 8},{tname: 'huonan', x: 8, y: 6},{tname: 'huonan', x: 8, y: 5},{tname: 'huonan', x: 10, y: 6},
-        {tname: 'huonan', x: 10, y: 5},{tname: 'delaiwen', x: 0, y: 2},{tname: 'delaiwen', x: 0, y: 6},{tname: 'ez', x: 19, y: 11},{tname: 'ez', x: 17, y: 0},
-        {tname: 'twitch', x: 7, y: 8},{tname: 'twitch', x: 13, y: 4},{tname: 'twitch', x: 15, y: 10},{tname: 'jin', x: 10, y: 8},{tname: 'jin', x: 10, y: 7},
-        {tname: 'delaiwen', x: 6, y: 10},{tname: 'delaiwen', x: 6, y: 11},
-        {tname: 'huonan', x: 14, y: 2},{tname: 'ejiate', x: 15, y: 2},
-      ],
-      enemyArr: [
-        ['zombie-flag', 'godzilla', 'zombie-boom', 'godzilla', 'zombie-boom', 'rabbish-2','rabbish','rabbish-2','ice-car','ice-car','fulisha','fulisha','zombie-boom','kunkun','kunkun','zombie-dance','zombie-dance','afu','pole-vault','newspaper','rugby','iron-gate','zombie-3','zombie-2','zombie-1'],
-        ['zombie-flag','zombie-dance','rabbish-2','zombie-dance','rabbish-2','zombie-dance','rabbish-2','zombie-dance','rabbish-2','zombie-dance','rabbish-2','zombie-dance','rabbish-2'],
-        ['zombie-flag','fulisha','rabbish-2','fulisha','rabbish-2','fulisha','rabbish-2','fulisha','rabbish-2','fulisha','rabbish-2','fulisha','rabbish-2'],
-        ['zombie-flag','godzilla','godzilla','godzilla','godzilla','godzilla','godzilla','godzilla','godzilla','godzilla','godzilla'],
-        ['zombie-flag','kunkun','rabbish-2','kunkun','rabbish-2','kunkun','rabbish-2','kunkun','rabbish-2'],
-        ['zombie-flag','zombie-1','zombie-2','zombie-3','iron-gate','rugby','newspaper','zombie-dance','pole-vault','ice-car','afu','fulisha','kunkun','rabbish','rabbish-2','zombie-boom','godzilla'],
-      ]
-    },
-  ] as MapDataItem[],
   /** 无尽模式 */
   endless: [
     {

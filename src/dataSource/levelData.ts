@@ -4,8 +4,6 @@ import mapData, { MapDataItem, othMapData } from './mapData';
 export enum LevelDataItemEnum {
   /** 正常关卡 */
   Normal = "Normal",
-  /** 体验关卡 */
-  Experience = "Experience",
   /** 无尽模式 */
   Endless = "Endless",
 }
@@ -20,12 +18,7 @@ export type LevelDataItem = {
 } & MapDataItem
 
 const levelData: LevelDataItem[] = [
-  // 体验关卡
-  {
-    type: LevelDataItemEnum.Experience,
-    typeIndex: 0,
-    ...othMapData.experience[0]
-  },
+
 ]
 
 // 正常关卡
