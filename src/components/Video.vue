@@ -5,7 +5,7 @@
       <div class="video-one__box ">
         <img src="/assets/images/resources/video-1-1.png" alt="">
         <div class="video-one__content">
-          <a href="https://www.youtube.com/watch?v=coI_aT4BDNA" class="video-popup video-one__btn"><i class="fa fa-play"></i><!-- /.fa fa-play --></a>
+          <a href="https://www.bilibili.com/video/BV1ar4y1J7TA/?spm_id_from=333.788.recommend_more_video.3" class="video-popup video-one__btn"><i class="fa fa-play"></i><!-- /.fa fa-play --></a>
           <!-- /.video-popup -->
           <h2 class="video-one__title">Watch Our <span>Tutorial</span> <br> Videos.</h2><!-- /.video-one__title -->
         </div><!-- /.video-one__content -->

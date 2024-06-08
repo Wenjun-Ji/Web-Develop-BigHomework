@@ -30,9 +30,6 @@
               <a href="#cta">Details</a>
             </li>
 
-            <li class="scrollToLink">
-              <a href="#testimonial">Testimonial</a>
-            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
         <div class="right-side-box">

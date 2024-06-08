@@ -6,10 +6,8 @@
     <Video />
     <CallToAction />
     <CallToActionTwo />
-    <Testimonial />
     
     <Subscribe />
-    <Footer />
   </div>
 </template>
 <script>
@@ -32,12 +30,7 @@
       Video,
       CallToAction,
       CallToActionTwo,
-
-      Testimonial,
-
-      Subscribe,
-      Footer,
-
+      Subscribe
     }
   }
 </script>

@@ -35,69 +35,21 @@ const enemyObj: EnemyDataObj = {
     name: 'pole-vault', w: 2, h: 1.7, curSpeed: 0.08, speed: 0.08, reward: 30, hp: {cur: 30, sum: 30}, 
     imgType: 'gif', imgSource: _requireCDN('zombie_8_move.gif'), isForward: true, isFlip: false
   },
-  // 'ice-car': {
-  //   name: 'ice-car', w: 1.8, h: 1.8,  curSpeed: 0.04, speed: 0.04, reward: 110, hp: {cur: 200, sum: 200},
-  //   imgType: 'gif', imgSource: _requireCDN('zombie_9_move.gif'), isForward: true, isFlip: false, audioKey: 'ice-car-frozen',
-  //   skill: {time: 6000, r: 3, keepTime: 3000, animation: {cur: 120, sum: 120}},
-  // },
-  // 'afu': {
-  //   name: 'afu', w: 1.8, h: 1.8, curSpeed: 0.03, speed: 0.03, reward: 80, hp: {cur: 500, sum: 500},
-  //   imgType: 'png', imgSource: _requireCDN('afu.png'), isForward: false, isFlip: true
-  // },
-  // 'fulisha': {
-  //   name: 'fulisha', w: 1.8, h: 1.8,  curSpeed: 0.03, speed: 0.03, reward: 150, hp: {cur: 800, sum: 800},
-  //   imgType: 'png', imgSource: _requireCDN('fulisha.png'), isForward: true, isFlip: false,
-  //   skill: {time: 6000}, audioKey: 'pvz-little',
-  // },
-  // 'dance-little': {
-  //   name: 'dance-little', w: 1.5, h: 1.5,  curSpeed: 0.04, speed: 0.04, reward: 5, hp: {cur: 15, sum: 15},
-  //   imgType: 'gif', imgSource: _requireCDN('zombie_10_move.gif'), isForward: true, isFlip: false
-  // },
-  // 'zombie-little': {
-  //   name: 'zombie-little', w: 1.5, h: 1.5,  curSpeed: 0.06, speed: 0.06, reward: 5, hp: {cur: 10, sum: 10},
-  //   imgType: 'gif', imgSource: _requireCDN('zombie_11_move.gif'), isForward: true, isFlip: false
-  // },
-  // 'kunkun': {
-  //   name: 'kunkun', w: 1.8, h: 1.8,  curSpeed: 0.04, speed: 0.04, reward: 160, hp: {cur: 800, sum: 800},
-  //   imgType: 'gif', imgSource: _requireCDN('kunkun.gif'), isForward: false, isFlip: false,
-  //   skill: {time: 10000}, audioKey: 'kunkun',
-  // },
-  // 'rabbish': {
-  //   name: 'rabbish', w: 1.8, h: 1.8,  curSpeed: 0.04, speed: 0.04, reward: 50, hp: {cur: 300, sum: 300},
-  //   imgType: 'gif', imgSource: _requireCDN('rabbish_1.gif'), isForward: false, isFlip: true
-  // },
-  // 'rabbish-2': {
-  //   name: 'rabbish-2', w: 1.8, h: 1.8, curSpeed: 0.04, speed: 0.04, reward: 100, hp: {cur: 400, sum: 400},
-  //   imgType: 'gif', imgSource: _requireCDN('rabbish_2.gif'), isForward: false, isFlip: true,
-  //   skill: {time: 3000, r:2, animation: {cur: 80, sum: 80}},
-  // },
-  // 'godzilla': {
-  //   name: 'godzilla', w: 1.8, h: 1.8, curSpeed: 0.03, speed: 0.03, reward: 200, hp: {cur: 400, sum: 400}, audioKey: 'godzilla-fire',
-  //   imgType: 'png', imgSource: _requireCDN('godzilla.png'), isForward: false, isFlip: true,
-  //   skill: {time: 6000, animation: {cur: 60, sum: 60}, damage: 4},
-  // },
-  // 'zombie-boom': {
-  //   name: 'zombie-boom', w: 1.5, h: 1.5, curSpeed: 0.03, speed: 0.03, reward: 80, hp: {cur: 160, sum: 160}, audioKey: 'pvz-boom',
-  //   imgType: 'gif', imgSource: _requireCDN('zombie-boom.gif'), dieImg: _requireCDN('zombie-boom-skill2.gif'), isForward: true, isFlip: false,
-  //   skill: {time: 3000, r: 2, animation: {cur: 120, sum: 120}, damage: 10, img: _requireCDN('zombie-boom-skill.gif'), audioKeys: ['zombie-boom-countdown','zombie-boom-scream','zombie-boom-boom']},
-  // },
 }
 export default enemyObj
 
 export const enemyNameListData: EnemyName[] = [
   'zombie-flag','zombie-1','zombie-2','zombie-3','iron-gate',
   'rugby','newspaper','zombie-dance','pole-vault',
-  // 'ice-car','afu','fulisha','zombie-little','kunkun',
-  // 'rabbish','rabbish-2','godzilla','zombie-boom',
 ]
 
 export const enemyStaticData: {[key in EnemyName]: EnemyStaticItem} = {
   'zombie-flag': {name: '旗子僵尸', explain: '作者很懒没写什么...'},
-  'zombie-1': {name: '普通僵尸', explain: '作者很懒没写什么...'},
-  'zombie-2': {name: '路障僵尸', explain: '作者很懒没写什么...'},
-  'zombie-3': {name: '铁桶僵尸', explain: '作者很懒没写什么...'},
-  'iron-gate': {name: '铁门僵尸', explain: '作者很懒没写什么...'},
-  'rugby': {name: '橄榄球僵尸', explain: '作者很懒没写什么...'},
+  'zombie-1': {name: '普通僵尸', explain: 'NPC的命也是命'},
+  'zombie-2': {name: '路障僵尸', explain: 'NPC变强了'},
+  'zombie-3': {name: '铁桶僵尸', explain: 'NPC最终形态'},
+  'iron-gate': {name: '铁门僵尸', explain: '恐惧吗？'},
+  'rugby': {name: '橄榄球僵尸', explain: '黑皮体育生'},
   'newspaper': {name: '报纸僵尸', explain: '穷鬼一个，击杀它你将损失100金币'},
   'zombie-dance': {
     name: '舞王僵尸', explain: '技能: 能召唤4个傀儡僵尸', 

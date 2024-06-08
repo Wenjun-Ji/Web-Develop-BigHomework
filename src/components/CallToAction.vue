@@ -18,7 +18,7 @@
               <li><i class="fa fa-check"></i>Duis aute irure dolor in reprehenderit in voluptate.</li>
               <li><i class="fa fa-check"></i>Velit esse cillum dolore eu fugiat nulla pariatur.</li>
             </ul><!-- /.list-unstyled -->
-            <a href="/home" class="banner-one__btn thm-btn">
+            <a href="/home" class="banner-two__btn thm-btn">
               <span>Get Started</span>
             </a>
 
@@ -80,10 +80,10 @@
   left: 0;
 }
 
+
 .thm-btn {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #007bff;
   color:black;
   font-size: 18px;
   font-weight: 700;
@@ -93,7 +93,11 @@
 }
 
 .thm-btn:hover {
-  background-color: #0056b3;
+  color: #fff;
+}
+.thm-btn:hover:before {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
 }
 
 </style>
