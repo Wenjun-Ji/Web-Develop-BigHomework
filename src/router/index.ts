@@ -17,24 +17,9 @@ const pageStartRoutes = [
     component: () => import('../views/index.vue')
   },
   {
-    path: '/mode2',
-    name: 'Mode2',
-    component: () => import('@/views/Mode2.vue')
-  },
-  {
-    path: '/mode3',
-    name: 'Mode3',
-    component: () => import('@/views/Mode3.vue')
-  },
-  {
     path: '/set',
     name: 'Set',
     component: () => import('@/views/set.vue')
-  },
-  {
-    path: '/question',
-    name: 'question',
-    component: () => import('@/views/question.vue')
   }
 ]
 
