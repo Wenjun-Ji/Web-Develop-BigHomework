@@ -2,7 +2,7 @@
   <section class="mailchimp-one">
     <div class="container">
       <div class="block-title text-center">
-        <h2 class="blmailchimp-one__mc-form mc-formock-title__title">Subscribe Our <span>Newsletter</span> <br> to Get New Updates.</h2><!-- /.block-title__title -->
+        <h2 class="blmailchimp-one__mc-form mc-formock-title__title">What are you waiting for ?<br>Try it now !</h2><!-- /.block-title__title -->
       </div><!-- /.block-title -->
       
       <a href="/home" class="banner-one__btn thm-btn">

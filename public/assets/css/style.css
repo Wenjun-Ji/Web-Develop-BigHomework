@@ -2880,7 +2880,6 @@ a:visited {
 }
 
 .game-title::after {
-  content: "web版"; /* 添加的文本 */
   position: absolute;
   
   top: -10px; /* 调整位置 */
