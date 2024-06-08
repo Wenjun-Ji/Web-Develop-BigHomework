@@ -3,8 +3,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 const pageStartRoutes = [
   {
     path: '/',
-    name: 'Home',
-    component: () => import('@/views/Home.vue')
+    name: 'startpage',
+    component: () => import('@/views/startpage.vue'),
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: () => import('@/views/Home.vue'),
   },
   {
     path: '/mode1',
