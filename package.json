@@ -10,16 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^9.13.0",
-    "axios": "^1.1.3",
-    "element-plus": "^2.3.0",
-    "less": "^3.13.1",
-    "lhh-utils": "^1.0.6",
-    "lodash": "^4.17.21",
-    "pinia": "^2.0.28",
-    "pinia-plugin-persist": "^1.0.0",
-    "vue": "^3.3.4",
-    "vue-router": "^4.1.6"
+  "@vueuse/core": "^9.13.0",
+  "axios": "^1.1.3",
+  "element-plus": "^2.3.0",
+  "less": "^3.13.1",
+  "lhh-utils": "^1.0.6",
+  "lodash": "^4.17.21",
+  "pinia": "^2.0.28",
+  "pinia-plugin-persist": "^1.0.0",
+  "vue": "^3.3.4",
+  "vue-router": "^4.1.6",
+  "@bazzite/nuxt-optimized-images": "^0.3.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
