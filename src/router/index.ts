@@ -43,7 +43,7 @@ const otherRoutes = [
 // 合并后的路由配置
 const routes = [
   ...pageStartRoutes, // pageStart项目的路由放前面
-  ...otherRoutes
+  ...otherRoutes 
 ]
 
 const router = createRouter({
