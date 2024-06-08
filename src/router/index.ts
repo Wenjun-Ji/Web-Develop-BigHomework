@@ -3,18 +3,18 @@ import { createRouter, createWebHistory } from 'vue-router'
 const pageStartRoutes = [
   {
     path: '/',
-    name: 'Home',
-    component: () => import('@/views/Home.vue')
+    name: 'startpage',
+    component: () => import('@/views/startpage.vue'),
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: () => import('@/views/Home.vue'),
   },
   {
     path: '/mode1',
     name: 'Mode1',
     component: () => import('../views/index.vue')
-  },
-  {
-    path: '/set',
-    name: 'Set',
-    component: () => import('@/views/set.vue')
   }
 ]
 
@@ -43,7 +43,7 @@ const otherRoutes = [
 // 合并后的路由配置
 const routes = [
   ...pageStartRoutes, // pageStart项目的路由放前面
-  ...otherRoutes
+  ...otherRoutes 
 ]
 
 const router = createRouter({
