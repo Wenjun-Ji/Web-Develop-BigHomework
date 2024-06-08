@@ -48,7 +48,7 @@ export default defineComponent({
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('@/assets/background2.jpg');
+  background-image: url('@/assets/background2.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
