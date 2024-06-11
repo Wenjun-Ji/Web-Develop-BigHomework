@@ -2,9 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue';
 import FloatingBall from '@/components/floatingBall';
 import { ElDropdown, ElDropdownItem, ElMessage, ElMessageBox } from 'element-plus';
-import Login from '@/components/login.vue';
 import { useUserInfoStore } from '@/stores/userInfo';
-import RankList from './rankList.vue';
 import UserInfo from './userInfo.vue'
 import SelectLevelPop from './selectLevelPop.vue'
 import { useSourceStore } from '@/stores/source';

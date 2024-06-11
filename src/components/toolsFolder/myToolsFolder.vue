@@ -1,19 +1,11 @@
 <script setup lang='ts'>
 import { ref } from 'vue';
 import ToolsFolder, { ToolsFolderItem } from './index.vue';
-import RankList from '../rankList.vue';
 import SelectTowerPop from '../selectTowerPop.vue';
 import EnemyInfoPop from '../enemyInfoPop.vue';
 
 import GithubIcon from '@/assets/img/github.svg';
-import BlogIcon from '@/assets/img/blog.svg';
-import ComponentIcon from '@/assets/img/component.svg';
-import MyGameIcon from '@/assets/img/myGame.png';
-import RankListIcon from '@/assets/img/rankList.svg';
-import TowerLogoIcon from '@/assets/img/towerLogo.svg';
-import JuejinIcon from '@/assets/img/juejin.svg';
-import LTDIcon from '@/assets/img/LTDIcon.png';
-import otherImgData from '@/dataSource/otherImgData';
+
 import { requireCDN } from '@/utils/handleImg';
 const  _requireCDN = (url: string) => requireCDN(url, 'zombies')
 const  _requireCDN1 = (url: string) => requireCDN(url, 'tower')
