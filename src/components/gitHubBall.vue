@@ -19,7 +19,7 @@ const ballStyle = computed(() => {
 
 const toGithub = () => {
   if(Date.now() - ballClickTime.value < 300) {
-    window.open('https://github.com/ApeWhoLovesCode/LegendTD')
+    window.open('https://github.com/Wenjun-Ji/Web-Develop-BigHomework')
   }
 }
 
