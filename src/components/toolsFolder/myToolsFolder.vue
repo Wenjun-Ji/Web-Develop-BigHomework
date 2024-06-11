@@ -31,14 +31,7 @@ const onClickItem = (item: ToolsFolderItem) => {
     :list="[
       {icon: GithubIcon, title: 'GitHub', url: 'https://github.com/Wenjun-Ji/Web-Develop-BigHomework'},
       {icon: _requireCDN('godzilla.png'), title: '敌人信息'},
-      {icon: _requireCDN1('tower_slow.png'), title: '塔防选择'},
-      // {icon: RankListIcon, title: '排行榜'},
-      // {icon: BlogIcon, title: '我的博客', url: 'https://codeape.site/'},
-      // {icon: JuejinIcon, title: '掘金文档', url: 'https://juejin.cn/post/7214517573584601144'},
-      // {icon: ComponentIcon, title: '个人组件库', url: 'http://lhhui.codeape.site/'},
-      // {icon: MyGameIcon, title: '小游戏平台', url: 'http://mygame.codeape.site/'},
-      // {icon: LTDIcon, title: 'LegendTD', url: 'http://game.codeape.site/'},
-      // {icon: otherImgData.start, title: '起点logo'},
+      {icon: _requireCDN1('tower_slow.png'), title: '塔防选择'}
     ]" 
     @on-click-item="onClickItem"
   />
